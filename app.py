@@ -1,3 +1,4 @@
+
 # app.py
 import streamlit as st
 import pandas as pd
@@ -6,6 +7,7 @@ import pickle
 import plotly.express as px
 from sklearn.preprocessing import StandardScaler
 import joblib
+st.set_page_config(page_title="Parkinson's Disease Predictor", layout="wide")
 
 class ParkinsonsApp:
     def __init__(self):
